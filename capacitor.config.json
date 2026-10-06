@@ -1,0 +1,25 @@
+{
+  "appId": "com.moviefast.app",
+  "appName": "MOVIE FAST",
+  "webDir": "www",
+  "backgroundColor": "#080c10",
+  "zoomEnabled": false,
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  },
+  "android": {
+    "allowMixedContent": true
+  },
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": false
+    },
+    "SystemBars": {
+      "hidden": true,
+      "style": "DARK",
+      "insetsHandling": "css",
+      "initialViewportFitValueHint": "cover"
+    }
+  }
+}
